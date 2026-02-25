@@ -1,0 +1,14 @@
+
+#code
+import neurokit2 as nk
+import matplotlib.pyplot as plt
+
+# Simulate ECG signal
+ecg = nk.ecg_simulate(duration=10, sampling_rate=250)
+
+# Process ECG
+signals, info = nk.ecg_process(ecg, sampling_rate=250)
+
+# Plot
+nk.ecg_plot(signals)
+plt.show()
