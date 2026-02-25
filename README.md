@@ -20,6 +20,3 @@ MIT-BIH Arrhythmia Dataset
 
 ## Output
 HRV Time Domain, Frequency Domain, and Nonlinear parameters.
-
-## Author
-Harshavardhan
